@@ -18,5 +18,5 @@ node {
     			sh 'echo DataService is ready to release!'
     			}
     		}
-    	}
+    	} 
 }
