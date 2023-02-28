@@ -6,4 +6,4 @@ node {
     stage('Gradle build') {
         sh 'gradle build'
     }
-} 
+}
