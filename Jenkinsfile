@@ -8,7 +8,7 @@ node {
     }
     
     stage('User Acceptance Test') {
-    	def response = input message: 'Is this build good to go?'.
+    	def response = input message: 'Is this build good to go?',
     	paramaters:[choice(choices: 'Yes/nNo',
     	description: '', name: 'Pass')]
     	
