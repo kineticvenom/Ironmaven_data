@@ -1,7 +1,7 @@
 
 node {
     stage ("Checkout DataService"){
-        git branch: 'main', url: '~/Software/repos/Ironmaven_data.git'
+        git branch: 'main', url: 'https://github.com/kineticvenom/Ironmaven_data.git'
     }
     
        stage ("Gradle Build - DataService") {
